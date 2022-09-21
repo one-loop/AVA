@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/one-loop/AVA/main/assets/favicon%20round.png" alt="AVA Logo" width="100"/>
+  <a href="https://one-loop.github.io/AVA/">
+    <img src="https://raw.githubusercontent.com/one-loop/AVA/main/assets/favicon%20round.png" alt="AVA Logo" width="100"/>
+  </a>
+  AVA is a community of student entrepreneurs, innovators, creators, leaders and investors. We hope you can join!
+  Website: [AVA - Student Entrepreneurship Community](https://one-loop.github.io/AVA/)
 </p>
 
-AVA is a community of student entrepreneurs, innovators, creators, leaders and investors. We hope you can join!
-
-Website: [AVA - Student Entrepreneurship Community](https://one-loop.github.io/AVA/)
 
 ## 🧠 Inspiration
 
