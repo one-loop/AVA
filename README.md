@@ -17,7 +17,7 @@ Lorem Ipsum
 
 Lorem Ispum
 
-## 📕 Features/Goals
+## 📕 Goals
 
 - [x]  Website Landing Page
 - [x]  User Interface
