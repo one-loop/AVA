@@ -1,4 +1,4 @@
-<img src="[drawing.jpg](https://raw.githubusercontent.com/one-loop/AVA/main/assets/favicon%20round.png)" alt="AVA Logo" width="100"/>
+<img src="https://raw.githubusercontent.com/one-loop/AVA/main/assets/favicon%20round.png" alt="AVA Logo" width="100"/>
 
 # AVA
 
