@@ -1,7 +1,5 @@
 <img src="https://raw.githubusercontent.com/one-loop/AVA/main/assets/favicon%20round.png" alt="AVA Logo" width="100"/>
 
-# AVA
-
 AVA is a community of student entrepreneurs, innovators, creators, leaders and investors. We hope you can join!
 
 Website: [AVA - Student Entrepreneurship Community](https://one-loop.github.io/AVA/)
