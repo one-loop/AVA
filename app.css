@@ -5117,6 +5117,25 @@
         background: var(--nextui-colors-green300)
     }
 
+    .nextui-c-jJIrOH-kiwFfZ-color-yellow {
+        background: var(--nextui-colors-yellow800);
+        color: var(--nextui-colors-yellow100);
+    }
+
+    .nextui-c-jJIrOH-kiwFfZ-color-yellow:hover {
+        background: var(--nextui-colors-yellow300);
+    }
+
+    .nextui-c-jJIrOH-kiwFfZ-color-purple {
+        background: var(--nextui-colors-purple300);
+        color: var(--nextui-colors-purple800);
+    }
+
+    .nextui-c-jJIrOH-kiwFfZ-color-purple:hover {
+        background: var(--nextui-colors-purple700);
+        color: var(--nextui-colors-purple100);
+    }
+
     .nextui-c-dWWWSv-eaqZHc-borderWeight-light {
         --nextui--collapseGroupBorderWidth: var(--nextui-borderWeights-light)
     }
@@ -5258,7 +5277,9 @@
     }
 
     .nextui-c-iWjDFM-euJLgm-cv {
-        border-radius: var(--nextui-radii-pill)
+        border-radius: var(--nextui-radii-pill);
+        border-radius: 0px 8px 8px 0px;
+        height: 38px;
     }
 
     .nextui-c-hzQjrs-ibDEqG-cv {
@@ -8602,7 +8623,8 @@
         margin-top: var(--nextui-space-2);
         margin-bottom: var(--nextui-space-2);
         font-size: 1.2rem;
-        max-width: 100%
+        max-width: 100%;
+        margin-bottom: 30px;
     }
 
     @media (max-width: 650px) {
@@ -8690,16 +8712,17 @@
     .nextui-c-kRHeuF-ihyAIsH-css.xs {
         flex-grow: 0;
         display: inherit;
-        max-width: 100%;
-        flex-basis: 100%
+        /* max-width: 100%; */
+        /* flex-basis: 100% */
     }
 
     @media (max-width: 650px) {
         .nextui-c-kRHeuF-ihyAIsH-css.xs {
             flex-grow: 0;
             display: inherit;
-            max-width: 100%;
-            flex-basis: 100%
+            /* max-width: 100%; */
+            /* flex-basis: 100% */
+            height: 38px;
         }
     }
 
@@ -8757,15 +8780,15 @@
         flex-grow: 0;
         display: inherit;
         max-width: 100%;
-        flex-basis: 100%
+        /* flex-basis: 100% */
     }
 
     @media (max-width: 650px) {
         .nextui-c-kRHeuF-ilgSCuz-css.xs {
             flex-grow: 0;
             display: inherit;
-            max-width: 100%;
-            flex-basis: 100%
+            /* max-width: 100%; */
+            /* flex-basis: 100% */
         }
     }
 
@@ -8773,8 +8796,8 @@
         .nextui-c-kRHeuF-ilgSCuz-css.sm {
             flex-grow: 0;
             display: inherit;
-            max-width: 79.16666666666667%;
-            flex-basis: 79.16666666666667%
+            /* max-width: 79.16666666666667%; */
+            /* flex-basis: 79.16666666666667% */
         }
     }
 
