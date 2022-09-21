@@ -4,7 +4,7 @@
   </a>
   <br>
   AVA is a community of student entrepreneurs, innovators, creators, leaders and investors. We hope you can join!
-  Website: [AVA - Student Entrepreneurship Community](https://one-loop.github.io/AVA/)
+  Website: <a href="https://one-loop.github.io/AVA/">AVA - Student Entrepreneurship Community</a>
 </p>
 
 
