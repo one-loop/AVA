@@ -7263,10 +7263,113 @@
         box-sizing: border-box;
         margin: calc(-1 * var(--nextui--gridGapUnit));
         width: calc(100% + var(--nextui--gridGapUnit) * 2);
-        width: 65%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
-        height: 600px;
+        /* height: 600px; */
+    }
+    .card-panels {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        color: white;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .card-panels img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        transition: transform 0.6s ease 0s;
+    }
+
+    .card-pitch, .card-funding, .card-launch {
+        height: 500px;
+        width: 400px;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-panels > .card-funding {
+        width: 60%;
+    }
+    .card-funding img {
+        width: 50%;
+    }
+
+    .card-funding {
+        width: 100%;
+    }
+
+    .card-funding img {
+        width: 50%;
+        position: relative;
+        left: 30%;
+    }
+
+    .card-pitch:hover img, .card-funding:hover img, .card-launch:hover img {
+        transform: scale(1.05)
+    }
+    
+    @media (max-width: 720px) {
+        .card-panels {
+            margin-top: 30px;
+            flex-direction: column;
+            margin-bottom: 50px;
+            color: white;
+            /* width: 500px; */
+            align-items: center;
+        }
+
+        .card-pitch, .card-funding, .card-launch {
+            height: 500px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card-funding {
+            width: 85% !important;
+        }
+
+        .card-funding img {
+            width: 70%;
+            left: 20%;
+            transition: 0.16s ease;
+        } 
+    }
+
+    
+
+    .card-pitch:hover, .card-funding:hover, .card-launch:hover {
+        cursor: pointer;
+    }
+
+    .card-pitch {
+        /* background-color: var(--nextui-colors-primary); */
+        /* background-color: #00b7fa; */
+        background-image: linear-gradient(180deg, #00b7fa 25%, #01cfea 100%);
+        
+    }
+
+    .card-funding {
+        /* background-color: var(--nextui-colors-success); */
+        background-image: linear-gradient(180deg, #17c964 25%, #6FEE8D 100%);
+    }
+
+    .card-launch {
+        /* background-color: var(--nextui-colors-warning); */
+        background-image: linear-gradient(180deg, #f36534 25%, #F69F27 100%);
     }
 
     .nextui-c-kRHeuF-ijpsMxg-css {
