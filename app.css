@@ -1958,7 +1958,7 @@
         -moz-user-select: none;
         -webkit-user-select: none;
         user-select: none; */
-/*         width: 100px !important; */
+        /* width: 100px !important; */
     }
 
     a {
@@ -3148,6 +3148,7 @@
         height: 100%;
         /* border: 1px solid purple; */
         animation: spin_words 9s infinite;
+        text-align: left;
     }
 
     @keyframes spin_words {
@@ -3677,7 +3678,7 @@
         line-height: 1.2;
         font-size: 2.5rem;
         margin-bottom: 0;
-        /* text-align: center; */
+        text-align: center;
     }
 
     .launch {
@@ -6997,6 +6998,7 @@
             flex-basis: 0
         }
     }
+    
 
     .nextui-c-kRHeuF-ilfdbVF-css {
         --nextui--gridGapUnit: calc(2 * var(--nextui-space-3));
@@ -7006,7 +7008,8 @@
         margin: calc(-1 * var(--nextui--gridGapUnit));
         width: calc(100% + var(--nextui--gridGapUnit) * 2);
         padding-left: 0;
-        padding-right: 0
+        padding-right: 0;
+        justify-content: center;
     }
 
     .nextui-c-kRHeuF-iiYdDny-css {
@@ -7030,6 +7033,24 @@
             max-width: 100%;
             flex-basis: 100%
         }
+    }
+
+    @media (min-width: 1500px) {
+        video {
+            position: absolute !important;
+            left: calc(100vw - 1000px) !important;
+        }
+    }
+
+    @media (min-width: 2000px) {
+        video {
+            position: absolute !important;
+            left: calc(100vw - 2000px) !important;
+        }
+    }
+
+    .nextui-c-dqVeKF.nextui-c-dqVeKF-icmpvrW-css.one {
+        margin-top: 80px;
     }
 
     @media (min-width: 960px) {
@@ -7333,13 +7354,13 @@
 
         .card-pitch, .card-funding, .card-launch {
             height: 500px;
-            width: 80%;
+            width: 100%;
             margin-left: auto;
             margin-right: auto;
         }
 
         .card-funding {
-            width: 85% !important;
+            width: 100% !important;
         }
 
         .card-funding img {
