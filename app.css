@@ -2467,7 +2467,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: var(--nextui-zIndices-2)
+        z-index: var(--nextui-zIndices-2);
+        z-index: 1000 !important;
+    }
+
+    .lines, .gradient-background {
+        pointer-events: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
     }
 
     .nextui-c-iWjDFM .nextui-button-text p,
@@ -5739,6 +5747,7 @@
         .nextui-c-iWjDFM-idauLhl-css {
             display: none
         }
+        
     }
 
     .nextui-c-iWjDFM-idauLhl-css .nextui-button-icon {
