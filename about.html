@@ -10,9 +10,7 @@
                 d.remove('nextui-docs-light', 'nextui-docs-dark');
                 var e = localStorage.getItem('theme');
                 if ("system" === e || (!e && true)) {
-                    var t = "(prefers-color-scheme: dark)",
-                        m = window.matchMedia(t);
-                    m.media !== t || m.matches ? d.add('nextui-docs-dark') : d.add('nextui-docs-light')
+                    var t = "(prefers-color-scheme: dark)",                    m.media !== t || m.matches ? d.add('nextui-docs-dark') : d.add('nextui-docs-light')
                 } else if (e) var x = {
                     "light": "nextui-docs-light",
                     "dark": "nextui-docs-dark"
