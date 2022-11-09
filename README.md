@@ -6,6 +6,7 @@
   AVA is a community of student entrepreneurs, innovators, creators, leaders and investors. We hope you can join!
   <br>
   Website: <a href="https://avaevolve.vercel.app/" target="_blank">AVA - Student Entrepreneurship Community</a>
+  <br>
   <img src="https://raw.githubusercontent.com/one-loop/AVA/main/assets/Social%20Preview.png" />
 </p>
 
