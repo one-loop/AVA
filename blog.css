@@ -187,7 +187,17 @@
   }
 }
 .layout_desktopSidebar__SviRJ {
-  display: none;
+  /* display: none; */
+  position: fixed;
+  z-index: 100;
+  top: 100vh;
+  /* left: 100px; */
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in;
+  border-top: 1px solid var(--accents-2);
 }
 @media screen and (min-width: 961px) {
   .layout_desktopSidebar__SviRJ {
