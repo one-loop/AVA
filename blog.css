@@ -189,7 +189,7 @@
 .layout_desktopSidebar__SviRJ {
   /* display: none; */
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   top: 100vh;
   /* left: 100px; */
   width: 100%;
@@ -201,6 +201,11 @@
 }
 @media screen and (min-width: 961px) {
   .layout_desktopSidebar__SviRJ {
+    position: static;
+    background: none;
+    border-top: 0px;
+    border-radius: 0px;
+    top: 0px;
     display: block;
     width: 320px;
     flex-shrink: 0;
