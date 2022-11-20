@@ -4590,7 +4590,8 @@
 
     @media (min-width: 960px) {
         .nextui-c-fdHeMm-dwxLNB-responsive-true {
-            max-width: var(--nextui-breakpoints-sm)
+            max-width: var(--nextui-breakpoints-sm);
+            height: calc(84vh - 76px);
         }
     }
 
@@ -5824,14 +5825,10 @@
         padding-left: calc(0 * var(--nextui-space-sm));
         padding-right: calc(0 * var(--nextui-space-sm));
         max-width: var(--nextui-breakpoints-lg);
-        align-items: center;
-        align-content: ;
         flex-wrap: nowrap;
         display: flex;
         justify-content: space-between;
-        flex-direction: ;
-        position: relative;
-        height: calc(84vh - 76px)
+        
     }
 
     @media (max-width: 650px) {
