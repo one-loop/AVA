@@ -2340,6 +2340,36 @@
         line-height: var(--nextui-lineHeights-xs)
     }
 
+    .card-panels a {
+      position: relative;
+    }
+
+    @media (max-width: 720px) {
+      .card-panels a {
+        width: 100%;
+      }
+    }
+
+
+    .learn-more {
+      position: absolute;
+      /*top: 340px; */
+      bottom: 25px;
+      font-weight: bold;
+      font-size: 20px;
+      z-index: 10;
+      width: fit-content;
+      color:  white;
+      padding: 0.2rem 1rem;
+      border-radius: 50px;
+      transition: all 0.3s ease 0s;
+    }
+
+    a:hover .learn-more {
+      color: white;
+      background-color: rgb(11, 110, 249);
+    }
+
     .nextui-c-jklhtj li {
         margin-bottom: 0
     }
