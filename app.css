@@ -4308,7 +4308,7 @@
     }
 
     .nextui-c-gkprxJ:hover {
-        opacity: 0.8
+        backdrop-filter: saturate(180%) blur(28px);
     }
 }
 
