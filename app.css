@@ -3833,11 +3833,12 @@
             right: 0% !important;
             position: static !important;
             transform: scale(1) !important;
-            margin-left: auto;
-            margin-right: auto;
+            /* margin-left: auto; */
+            /* margin-right: auto; */
             height: 500px !important;
             margin-top: 30vh;
             background-color: black;
+            width: 100% !important;
             /* transform: scale(1) !important; */
             /* z-index: 100; */
         }
