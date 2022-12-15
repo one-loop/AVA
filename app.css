@@ -3828,6 +3828,35 @@
             top: var(--nextui-space-14);
             left: var(--nextui-space-14)
         }
+
+        .interactive-globe-3d {
+            right: 0% !important;
+            position: static !important;
+            transform: scale(1) !important;
+            margin-left: auto;
+            margin-right: auto;
+            height: 500px !important;
+            margin-top: 30vh;
+            /* transform: scale(1) !important; */
+            /* z-index: 100; */
+        }
+
+        .nextui-c-fZSRWH.hero__text-subtitle {
+            /* color: white; */
+        }
+
+        .nextui-c-CgElH.nextui-c-CgElH-ibVwYlk-css, .words-list h1 {
+            font-size: 2em !important;
+        }
+
+        .words-list {
+            height: 3em;
+            margin-top: 10px;
+        }
+
+        .hide-spline-watermark {
+
+        }
     }
 
     .dark-elegant .nextui-c-bDmTpC,
@@ -5866,7 +5895,9 @@
 
     @media (max-width: 650px) {
         .nextui-c-fdHeMm-iiChrst-css {
-            height: calc(100vh - 64px)
+            /* height: calc(100vh - 64px) */
+            height: 60vh;
+            align-items: baseline;
         }
     }
 
