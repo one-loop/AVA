@@ -3837,6 +3837,7 @@
             margin-right: auto;
             height: 500px !important;
             margin-top: 30vh;
+            background-color: black;
             /* transform: scale(1) !important; */
             /* z-index: 100; */
         }
@@ -3855,7 +3856,11 @@
         }
 
         .hide-spline-watermark {
-
+            /* background-color: green;
+            width: 100px;
+            height: 50px;
+            display: block; */
+            /* position: relative; */
         }
     }
 
