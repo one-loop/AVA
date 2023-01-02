@@ -11,13 +11,11 @@
 </p>
 
 
-## 🧠 Inspiration
-
-Lorem Ipsum
-
 ## 📌 What we do
 
-Lorem Ispum
+At AVA Evolve, we are dedicated to helping entrepreneurs and students around the world start and grow their businesses. Our organization was founded with the mission to provide resources, guidance, and mentorship to individuals and organizations looking to launch a successful venture. 
+
+We believe that entrepreneurship has the power to transform lives and communities. That’s why we are committed to helping people and organizations access the resources they need to create a successful venture. We understand that starting a business can be daunting, and that’s why we strive to provide the support and guidance to make it easier.
 
 ## 📕 Goals
 
@@ -27,21 +25,13 @@ Lorem Ispum
 - [x]  Reach 500 followers on IG
 - [x]  Reach 1,000 followers on IG
 - [ ]  Reach 2,000 followers on IG
-- [ ]  Reach 100 discord members
-- [ ]  Reach 500 discord members
-- [ ]  Reach 1000 discord members
-- [ ]  Get Users + Marketing (high priority)
-- [ ]  Attract 5 Volunteers
-- [ ]  Create Website About Us Page
-- [ ]  Create Blog
+- [x]  Create Website About Us Page
+- [x]  Create Blog
+- [x]  Create and Publish 10 articles 
+- [x]  Create and Publish 50 articles 
+- [x]  Create and Publish 75 articles 
+- [ ]  Create and Publish 100 articles 
 
-## 📕 How I built it
-
-Lorem Ipsum
-
-## 🎓 What's next for AVA
-
-Lorem Ipsum
 
 ## 🔎 Sources
 
